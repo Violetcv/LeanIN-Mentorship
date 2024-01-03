@@ -1,13 +1,11 @@
-// import './App.css';
+import './App.css';
+import { Auth } from'./components/auth';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Firebase course
-        </p>
-      </header>
+      <Auth/>
+
     </div>
   );
 }
