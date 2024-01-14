@@ -6,9 +6,9 @@ import './navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <Link href="/"><button>Home</button></Link>
-      <Link href="/about">About</Link>
-      <Link href="/signin">Sign In</Link>
+      <a href="/"><button>Home</button></a>
+    <a href="/about"><button>About</button></a>
+    <a href="/signin"><button>Sign In</button></a>
       {/* <Auth/> */}
     </nav>
   );

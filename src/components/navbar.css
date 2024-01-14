@@ -1,13 +1,23 @@
 .navbar {
-    background-color: #333;
+    background-color: #e98bcd;
     padding: 50px;
     display: flex;
-    justify-content: space-around;
-    color: white;
+    justify-content: right;
+    color: rgb(73, 24, 54);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   
   .navbar a {
-    color: white;
+    color: rgb(73, 24, 54);
     text-decoration: none;
+    text-align: left;
   }
-  
+
+  .navbar button{
+    padding: 10px 30px;
+    margin-left: 40px;
+    background-color: #522d47;
+    border-radius: 15px;
+    color: #f1c7e5;
+  }

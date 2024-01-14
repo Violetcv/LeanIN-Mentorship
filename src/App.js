@@ -1,9 +1,8 @@
 import './App.css';
-import MyComponent from './components/myComponent';
 import { Auth } from'./components/auth';
 import Navbar from './components/navbar';
 import Jumbotron from './components/jumbotron';
-import SignIn from './pages/signin.js';
+// import SignIn from './pages/signin.js';
 import About from './pages/about.js';
 
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -22,10 +21,6 @@ function App() {
       {/* <Route path="/about" component={About}><About/></Route> */}
       {/* </Routes> */}
       <Jumbotron/>
-      <MyComponent/>
-
-      <Auth/>
-
     </div>
     // </BrowserRouter>
   );
