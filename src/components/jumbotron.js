@@ -1,4 +1,5 @@
 import React from 'react';
+// import Counter from './counter';
 import './jumbotron.css';
 
 function Jumbotron() {
@@ -16,7 +17,6 @@ function Jumbotron() {
       <button className='pretty-button' onClick={handleClick}>Click Me!</button>
       </div>
   </div>
-    
   );
 }
 

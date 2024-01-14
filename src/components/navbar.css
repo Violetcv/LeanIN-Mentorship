@@ -1,23 +1,29 @@
 .navbar {
-    background-color: #e98bcd;
-    padding: 50px;
-    display: flex;
-    justify-content: right;
-    color: rgb(73, 24, 54);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-  
-  .navbar a {
-    color: rgb(73, 24, 54);
-    text-decoration: none;
-    text-align: left;
-  }
+  background-image: url("Cherry_Blossoms_1-scaled.webp");
+  background-size: cover;
+  padding: 50px;
+  position:static;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
-  .navbar button{
-    padding: 10px 30px;
-    margin-left: 40px;
-    background-color: #522d47;
-    border-radius: 15px;
-    color: #f1c7e5;
-  }
+.elements{
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  color: rgb(73, 24, 54);
+}
+
+.navbar a {
+  color: rgb(73, 24, 54);
+  text-decoration: none;
+  justify-content: right;
+}
+
+.navbar button {
+  padding: 10px 30px;
+  margin-left: 40px;
+  background-color: #522d47;
+  border-radius: 15px;
+  color: #f1c7e5;
+}

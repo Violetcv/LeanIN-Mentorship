@@ -6,7 +6,7 @@
 }
 
 .jumbotron h1 {
-  color: #333;
+  color: #3b1d3a;
 }
 
 .container-jumbotron {
@@ -15,7 +15,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle shadow effect */
   padding: 100px; /* Padding inside the jumbotron */
   background-color: #fff; /* Background color for the jumbotron */
-  margin: 20px;
+  margin: 50px;
 }
 
 .pretty-button {
@@ -28,4 +28,5 @@
   text-decoration: none;
   float: none;
   border-radius: 15px;
+  margin-bottom: 30px;
 }

@@ -15,6 +15,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f0cbeb;
+  /* margin-bottom: 80px; */
 }
 
 .App {

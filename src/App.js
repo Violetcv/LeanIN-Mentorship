@@ -1,9 +1,10 @@
 import './App.css';
-import { Auth } from'./components/auth';
+// import { Auth } from'./components/auth';
 import Navbar from './components/navbar';
 import Jumbotron from './components/jumbotron';
 // import SignIn from './pages/signin.js';
-import About from './pages/about.js';
+// import About from './pages/about.js';
+import Counter from './components/counter.js';
 
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
       {/* <Route path="/about" component={About}><About/></Route> */}
       {/* </Routes> */}
       <Jumbotron/>
+      <Counter/>
     </div>
     // </BrowserRouter>
   );
