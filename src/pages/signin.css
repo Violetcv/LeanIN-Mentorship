@@ -4,6 +4,16 @@
     
 }
 
+.toggle-link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggle-link:hover {
+  color: darkblue;
+}
+
 .login-page {
     width: 360px;
     /* padding: 8% 0 0; */

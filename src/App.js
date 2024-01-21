@@ -6,6 +6,7 @@ import About from './pages/about.js';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./pages/home.js";
+import Flower from "./pages/flower.js";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/signin" element={<SignIn/>}></Route>
+          <Route path="/flowers" element={<Flower/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
