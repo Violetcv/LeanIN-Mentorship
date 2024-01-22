@@ -8,14 +8,13 @@ function Flower() {
     const flowerCollectionRef = collection(db, "flowers");
 
     // Create a operation - Add a new flower to Firestore
-    const addFlower
+    // const addFlower
     
     useEffect(() => {
         const getFlowerList = async () => {
             // Read the data, set movie list
             try {
                 const data = await getDocs(flowerCollectionRef);
-                const flowerData
                 console.log(data);
             } catch (error) {
                 console.error(error);
@@ -28,6 +27,7 @@ function Flower() {
     return (  
         <div>
             <h2>Flower Page</h2>
+            {/* <button className='pretty-button' onClick={getFlowerList}>get</button> */}
         </div>
     );
 }
